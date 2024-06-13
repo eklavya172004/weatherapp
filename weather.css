@@ -97,3 +97,38 @@ p{
     background-color: rgb(251, 68, 62);
 }
 
+@media (max-width:768px){
+    .card {
+        font-size: 20px;
+        padding: 20px;
+        min-width: 250px;
+    }
+    .entercity, button {
+        font-size: 18px;
+        padding: 8px 10px;
+    }
+    .temperaturedisplay, .humiditydisplay {
+        font-size: 1.5rem;
+    }
+    .weatheremoji {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        font-size: 18px;
+        padding: 15px;
+        min-width: 200px;
+    }
+    .entercity, button {
+        font-size: 16px;
+        padding: 6px 8px;
+    }
+    .temperaturedisplay, .humiditydisplay {
+        font-size: 1.3rem;
+    }
+    .weatheremoji {
+        font-size: 2rem;
+    }
+}
